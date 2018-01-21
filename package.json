@@ -1,0 +1,31 @@
+{
+  "name": "@b4fun/json-schema-merge",
+  "version": "0.0.1",
+  "description": "obj.$merge support for JSON schema",
+  "main": "index.js",
+  "scripts": {
+    "test:lint": "eslint .",
+    "test:flow": "flow",
+    "test:jest": "jest",
+    "test": "npm run test:lint && npm run test:flow && npm run test:jest"
+  },
+  "keywords": [
+    "swagger",
+    "openapi",
+    "json-schema"
+  ],
+  "author": "hbc <me@hbc.rocks>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.7.0",
+    "flow-bin": "^0.63.1",
+    "jest": "^22.1.4"
+  }
+}
