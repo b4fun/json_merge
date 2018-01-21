@@ -1,5 +1,5 @@
 {
-  "name": "@b4fun/json-schema-merge",
+  "name": "@b4fun/json_merge",
   "version": "0.0.1",
   "description": "obj.$merge support for JSON schema",
   "main": "index.js",
